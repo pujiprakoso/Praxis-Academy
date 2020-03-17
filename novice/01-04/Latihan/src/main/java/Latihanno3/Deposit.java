@@ -1,9 +1,11 @@
-public class Deposit extends ATMMachine
+package ATMMM;
+
+public class Deposit extends ATMMachineMain
 {
     static double deposit;
-    public void setDeposite(double d)
+    public void setDeposit(double d)
     {
-        deposit=d;
+        deposit = d;
     }
     public static double getDeposit()
     {
